@@ -1,13 +1,17 @@
 public class HelloArgs{
-/*multiline */
+	/* /* /*
+
+	   /*
+	   
+	   multiline 
 //oneline comment
 	
-/**
+/** /**
  * important
  * Nice
  * //test
  *
- **/
+ **/ 
 
 public static void main(String args[]){
 
