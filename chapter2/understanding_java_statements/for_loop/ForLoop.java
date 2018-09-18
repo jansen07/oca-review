@@ -38,6 +38,25 @@ public class ForLoop{
 			break;
 		}
 
+
+		//Notice not required expressions in forloop
+		for(int j=0;j<10;){
+		
+			System.out.println("valid");
+			break;
+		}
+
+		for(;x<10;){
+		System.out.println("valid");
+		x=11;		
+		}
+
+		for(int j=0;;){
+		
+			System.out.println("valid");
+			break;
+		}
+
 	}
 
 }
