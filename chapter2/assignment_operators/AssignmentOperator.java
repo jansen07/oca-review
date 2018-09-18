@@ -10,6 +10,14 @@ float f= 1.0; // DOES NOT COMPILE
 float f1= 1; //THIS COMPILES int -> float
 //REMEMBER
 //adding .0 decimal instructs compiler to treat value as double
+
+
+short a=1;
+short b=3;
+
+short c=a+b; // DOES NOT COMPILE
+short c=a * b; // DOES NOT COMPILE
+
 }
 
 }
