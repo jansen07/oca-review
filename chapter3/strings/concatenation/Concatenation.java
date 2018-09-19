@@ -13,6 +13,15 @@ public class Concatenation{
 		System.out.println(1 + 2 + "3" + 4 + 5); //3345
 	
 		System.out.println(1 + 2 + "3" + (4 + 5)); //339
+
+
+		int x =1;
+
+		System.out.println(x++ + 2 +  "3" + (4 + 5)); //339
+
+		
+		System.out.println(++x + 2 + "3" + (4 + 5)); //539
+
 	}
 
 
