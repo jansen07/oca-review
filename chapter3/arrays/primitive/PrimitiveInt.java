@@ -16,6 +16,10 @@ public class PrimitiveInt{
 		int [] a = new int[2];
 		int  b[] = new int[3];
 		int c []; // new [2]int; doesn't work and same with new int[] without number
+
+
+		int[] arrayInts,arrayInts2;
+		int imArray[],justInt;
 	}
 
 
