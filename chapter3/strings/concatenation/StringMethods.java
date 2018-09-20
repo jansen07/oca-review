@@ -18,6 +18,7 @@ public class StringMethods{
 	 * substring() returns String
 	 * notice String is not capital letter
 	 * 
+	 *
 	 */
 
 	public static void main(String[] args){
@@ -34,8 +35,20 @@ public class StringMethods{
 
 	System.out.println(name.indexOf('a',5)); // returns -1 , index 5 is l
 	
+	System.out.println(name.substring(1,4)); // 1 - n  4 - a prints nim
 
-		
+	System.out.println(name.toLowerCase());
+
+	System.out.println(name.toUpperCase()); 
+	
+	String name2="animAls";
+	String name3= new String("animals");
+
+	System.out.println(name.equalsIgnoreCase(name2));
+	
+	System.out.println(name.equals(name3));
+
+
 	}	
 
 
