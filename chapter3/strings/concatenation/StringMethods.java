@@ -51,7 +51,14 @@ public class StringMethods{
 	//startsWith() , endsWith()
 	System.out.println(name.startsWith("ni")); // false
 	System.out.println(name.endsWith("als")); //true
+
+	//contains() , trim()
 	
+	System.out.println(name.contains("im"));
+
+	System.out.println("  test   ");
+	System.out.println("  test   ".trim());
+		
 
 	}	
 
