@@ -47,7 +47,11 @@ public class StringMethods{
 	System.out.println(name.equalsIgnoreCase(name2));
 	
 	System.out.println(name.equals(name3));
-
+	
+	//startsWith() , endsWith()
+	System.out.println(name.startsWith("ni")); // false
+	System.out.println(name.endsWith("als")); //true
+	
 
 	}	
 
