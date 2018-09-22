@@ -19,6 +19,7 @@ public class AsymetricArray{
 		System.out.println(x[1].length);
 
 	//	String s=x[2][0]; throws null pointer , its not yet initialized
+	//	x[2][0]="hello"; throws null pointer also
 		String s=x[0][1]=x[0][2]="test"; // this is valid. evaluating from left to right and assigning it finally to String s
 		System.out.println(s);
 		for(String y[]: x){
