@@ -34,8 +34,11 @@ public class ToArray{
 		System.out.println(list); // 100,2,3,5,1
 		System.out.println(Arrays.toString(x)); // 100,2,3,5,1
 
+		list.remove("4"); //runtime exception, can't resize fixed list
 		list.add("test"); //runtime exception, list is fixed size
-			
+
+
+		//if you have array of primitives, its hard to convert it to list. with .asList(new ???) like .asList(new String[0]) because int is primitive and not object
 	}
 
 
