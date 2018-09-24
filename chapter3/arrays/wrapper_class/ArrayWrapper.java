@@ -19,8 +19,18 @@ public class ArrayWrapper{
 
 		print(numbers);
 //		int y= null; this is compile time error
-		int x = numbers.get(2); // numbers.get returns null. null was tried to get converted into int. which leads to null pointer exception
-	
+//		int x = numbers.get(2); // numbers.get returns null. null was tried to get converted into int. which leads to null pointer exception
+		
+		ArrayList<Double> d= new ArrayList<>();
+		
+		d.add(3D);
+		d.add(3.50);
+		d.add(40.23); // 3.0, 3.5, 40.23
+		print(d);
+		d.remove(40.23); 
+		print(d);	//3.0 , 3.5
+		d.remove(3D);
+		print(d); // 3.5
 	}
 
 	public static void print(ArrayList list){
