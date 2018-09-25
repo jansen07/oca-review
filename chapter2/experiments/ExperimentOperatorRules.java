@@ -21,6 +21,9 @@ public class ExperimentOperatorRules{
 
 
 	public static void main(String[] args){
+		rule1();
+		rule2();
+		rule3();
 		float x=1;
 		float y=2;
 		float z= x + y;
@@ -36,13 +39,32 @@ public class ExperimentOperatorRules{
 		float f= 30000000.233f * 20000000000000000.4f;
 
 				
-		short imShort =  (short) shrt + (short) byt; // even if you cast it. it will still be promoted to int( rule 3 ) then ( rule 4 ) resulting value will hahve same datatype as its promoted operands
+//		short imShort =  (short) shrt + (short) byt; // even if you cast it. it will still be promoted to int( rule 3 ) then ( rule 4 ) resulting value will have same datatype as its promoted operands
 
 
-	
-	
 	}
 
 
+	public static void rule1(){
 
+		int num =1;
+		long longNum = 23L;
+		long imLong = num + longNum;
+	}
+
+
+	public static void rule2(){
+		long longNum = 23;
+		float floatNum= 1000F;
+		float z = longNum * floatNum;
+	}
+
+	public static void rule3(){
+		byte byteNum= 5;
+		short shortNum = 2;
+		int result = (short)byteNum * (short)shortNum; // both will be promoted to int first before the actual operation.
+		short shortCast = (short) (byteNum * shortNum);
+//		short shortResult = (short)byteNum * (short)shortNum; // compile time error lossy conversion
+
+	}
 }
