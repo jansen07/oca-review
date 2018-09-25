@@ -31,7 +31,13 @@ public class ExperimentOperatorRules{
 		
 		float z1= 2.1f * 3;
 		double d= 2.1 * 3.4f;
-		
+		d=1 * 2.4f;
+		long l=1+2;
+		d=1* 3;
+		d= 3L * 4;
+		x= 3L * 1;	
+		x= 4000L;
+
 		short shrt=3;
 		byte byt=5;
 	//		short s=shrt + byt; lossy convertion, byte short and char performing operations will result to int
