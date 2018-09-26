@@ -13,6 +13,13 @@ public class DateTimeTest{
 		print(date);
 		LocalDate date1= date.plusDays(2);
 		print(date1);
+
+		// LocalDate has private constructor so you can't instantiate it
+		print(date1.plusYears(-0));
+		print(date1.plusYears(-1));	// subtracts 1 year
+
+		print(date1.minusYears(1)); 
+		print(date1.minusYears(-1));	// adds 1 year	
 	
 	}
 	public static void print(Object obj){
