@@ -38,7 +38,10 @@ public class StringBuilderTest{
 	print(sb);
 	sb.delete(4,100); // doesn't throw out of bounds
 	print(sb);
-	
+
+
+	StringBuilder testCapacity = new StringBuilder(" ");
+	System.out.println("capacity: "+testCapacity.capacity() + " / length: "	 + testCapacity.length()); // capacity : 17, length 1
 	}
 	public static void print(StringBuilder sb){
 		System.out.println(sb.toString());
