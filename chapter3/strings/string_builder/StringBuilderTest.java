@@ -3,7 +3,6 @@ public class StringBuilderTest{
 	public static void main(String[] args){
 	
 	System.out.println("Hello String Builder");
-	
 
 	
 	StringBuilder sb = new StringBuilder();
@@ -50,6 +49,18 @@ public class StringBuilderTest{
 	public static void print(String x){
 	
 	System.out.println(x);
+	}
+	// compile time error. this does not compile. incomparable type
+	public static void testCompare(){
+		StringBuilder b=new StringBuilder("test");
+
+		if(b == "test") System.out.println("it will compile");
+	
+	}
+
+	// compile time error. String can't be converted to StringBuilder ( incomparable type )
+	public static void testInstantiate(){
+		StringBuilder instantiateFromString= "test";
 	}
 
 
