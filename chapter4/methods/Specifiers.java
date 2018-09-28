@@ -34,6 +34,11 @@ public class Specifiers{
 	public final static void testing(){
 	
 	}
+
+
+	//WEIRD but not on exam
+	
+	final static public void weirdMethod(){}
 	
 }
 
