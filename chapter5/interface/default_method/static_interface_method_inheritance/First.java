@@ -3,4 +3,8 @@ public interface First{
 		System.out.println("Hello World");
 	}
 
+	default void testDefault(){
+	
+	}
+
 }
